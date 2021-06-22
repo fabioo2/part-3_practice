@@ -3,5 +3,6 @@ Content-Type: application/json
 
 {
     "content": "lol",
-    "important": "true"
+    "important": "true",
+    "userId": "60c839ec5bd6eb2900f6f80c"
 }
