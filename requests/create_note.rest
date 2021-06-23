@@ -1,8 +1,8 @@
 POST http://localhost:3001/api/notes
 Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImhhZW1pbiIsImlkIjoiNjBkMjQ4YjUyM2M1NDY0MzQ0NDEyZGI4IiwiaWF0IjoxNjI0MzkzOTM1fQ.jXlRQYV10L5AxWhXbkTDpBh9HBZm-_J4aDR_ZvsuWr0
 
 {
-    "content": "lol",
-    "important": "true",
-    "userId": "60c839ec5bd6eb2900f6f80c"
+    "content": "this is a note by Haemin confirming auth with JWT",
+    "important": "true"
 }
